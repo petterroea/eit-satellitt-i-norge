@@ -1,6 +1,4 @@
-html { height: 100%; }
-
-body { color: white; background-color: #fadeba; margin: 0; padding: 0; font-family: 'Noto Sans', sans-serif; height: 100%; }
+body { color: white; background-color: #fadeba; }
 
 .header { height: 80%; display: flex; flex-direction: column; justify-content: center; align-self: center; }
 

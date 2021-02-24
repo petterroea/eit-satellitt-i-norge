@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "default.css",
+	"sources": [
+		"default.scss"
+	],
+	"sourcesContent": [
+		"html {\n\theight: 100%;\n}\nbody {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: 'Noto Sans', sans-serif;\n\theight: 100%;\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,IAAI,CAAC,EACJ,MAAM,EAAE,IAAI,GACZ;;AACD,AAAA,IAAI,CAAC,EACJ,MAAM,EAAE,CAAC,EACT,OAAO,EAAE,CAAC,EACV,WAAW,EAAE,uBAAuB,EACpC,MAAM,EAAE,IAAI,GACZ"
+}

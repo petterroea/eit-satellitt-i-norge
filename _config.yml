@@ -5,3 +5,4 @@ defaults:
       layout: "default"
 
 source: "src/"
+baseurl: "/eit-satellitt-i-norge"

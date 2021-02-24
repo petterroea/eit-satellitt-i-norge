@@ -5,13 +5,33 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Satellitt i Norge - {{ page.title }}</title>
+    <title>Guide - {{ page.title }}</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/eit-satellitt-i-norge/assets/css/main.css" />
+    <link rel="stylesheet" href="/eit-satellitt-i-norge/assets/css/guide.css" />
 </head>
 
 <body>
     {% include navigation.html %}
-
-    {{ content }}
+    <nav class="sidebar">
+        {% for item in site.data.guides %}
+        <a class="sidebar-item" href="{{ item.link }}" {% if page.title==item.name %} style="color: red;" {% endif %}>
+            {{ item.name }}
+        </a>
+        {% for subitem in item.subpages %}
+        <a class="sidebar-item sub" href="{{ subitem.link }}" {% if page.title==subitem.name %} style="color: red;" {%
+            endif %}>
+            {{ subitem.name }}
+        </a>
+        {% endfor %}
+        {% endfor %}
+    </nav>
+    <div class="content-wrapper">
+        <div class="page-wrapper">
+            {{ content }}
+        </div>
+    </div>
 </body>
 
 </html>

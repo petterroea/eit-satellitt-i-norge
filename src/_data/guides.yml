@@ -1,0 +1,9 @@
+- name: Forside
+  link: /eit-satellitt-i-norge/guide/
+- name: Innkjøpsliste
+  link: /eit-satellitt-i-norge/innkjopsliste
+- name: Steg 1
+  link: /eit-satellitt-i-norge/steg-1
+  subpages:
+    - name: Steg 1.1
+      link: /eit-satellitt-i-norge/steg-1-1

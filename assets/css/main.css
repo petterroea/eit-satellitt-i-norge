@@ -1,0 +1,21 @@
+html { height: 100%; }
+
+body { color: white; background-color: #fadeba; margin: 0; padding: 0; font-family: 'Noto Sans', sans-serif; height: 100%; }
+
+.header { height: 80%; display: flex; flex-direction: column; justify-content: center; align-self: center; }
+
+.header h1 { text-align: center; }
+
+.content-wrap { max-width: 960px; }
+
+.content-wrap h1 { text-align: center; }
+
+.introduction { background-color: #2a3373; min-height: 20em; display: flex; flex-direction: row; justify-content: center; }
+
+nav { display: flex; flex-direction: row; justify-content: center; }
+
+.nav-item { min-width: 5em; padding: 2em; background-color: #babefa; text-align: center; }
+
+.nav-item:hover { background-color: #caceff; }
+
+/*# sourceMappingURL=main.css.map */

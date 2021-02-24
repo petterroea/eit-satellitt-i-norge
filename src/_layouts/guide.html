@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="/eit-satellitt-i-norge/assets/css/guide.css" />
 </head>
 
-<body>
-    <header class="tempheader"></header>
+<body class="guide-body">
+    <header class="tempheader">{% include navigation.html %}</header>
     <nav class="sidebar">
         {% for item in site.data.guides %}
         <a class="sidebar-item" href="{{ item.link }}" {% if page.title==item.name %} style="font-weight: bold;" {%

@@ -3,3 +3,5 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+source: "src/"

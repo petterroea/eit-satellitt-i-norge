@@ -13,15 +13,16 @@
 </head>
 
 <body>
-    {% include navigation.html %}
+    <header class="tempheader"></header>
     <nav class="sidebar">
         {% for item in site.data.guides %}
-        <a class="sidebar-item" href="{{ item.link }}" {% if page.title==item.name %} style="color: red;" {% endif %}>
+        <a class="sidebar-item" href="{{ item.link }}" {% if page.title==item.name %} style="font-weight: bold;" {%
+            endif %}>
             {{ item.name }}
         </a>
         {% for subitem in item.subpages %}
-        <a class="sidebar-item sub" href="{{ subitem.link }}" {% if page.title==subitem.name %} style="color: red;" {%
-            endif %}>
+        <a class="sidebar-item sub" href="{{ subitem.link }}" {% if page.title==subitem.name %}
+            style="font-weight: bold;" {% endif %}>
             {{ subitem.name }}
         </a>
         {% endfor %}

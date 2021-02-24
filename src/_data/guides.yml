@@ -1,9 +1,11 @@
 - name: Forside
   link: /eit-satellitt-i-norge/guide/
 - name: Innkjøpsliste
-  link: /eit-satellitt-i-norge/innkjopsliste
-- name: Steg 1
-  link: /eit-satellitt-i-norge/steg-1
+  link: /eit-satellitt-i-norge/guide/innkjopsliste/
+- name: Montering
+  link: /eit-satellitt-i-norge/guide/montering
   subpages:
-    - name: Steg 1.1
-      link: /eit-satellitt-i-norge/steg-1-1
+    - name: 1. Spis grandiosaen
+      link: /eit-satellitt-i-norge/guide/montering/steg1
+    - name: 2. Legg boksen på taket
+      link: /eit-satellitt-i-norge/guide/montering/steg2

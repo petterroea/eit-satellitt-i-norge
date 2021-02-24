@@ -1,12 +1,12 @@
- - name: Hjem
-   link: /
- - name: Om
-   link: /about.html
- - name: Innkjøpsliste
-   link: /purchase.html
- - name: Teori og forklaringer
-   link: /theory.html
- - name: Guide
-   link: /guide.html
- - name: Satellitter
-   link: /satellites.html
+- name: Hjem
+  link: /
+- name: Om
+  link: /about
+- name: Innkjøpsliste
+  link: /purchase
+- name: Teori og forklaringer
+  link: /theory
+- name: Guide
+  link: /guide
+- name: Satellitter
+  link: /satellites

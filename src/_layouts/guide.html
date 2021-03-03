@@ -13,7 +13,9 @@
 </head>
 
 <body>
-    <header class="tempheader"></header>
+    <header class="tempheader">
+        {% include navigation.html %}
+    </header>
     <nav class="sidebar">
         {% for item in site.data.guides %}
         <a class="sidebar-item" href="{{ item.link }}" {% if page.title==item.name %} style="font-weight: bold;" {%

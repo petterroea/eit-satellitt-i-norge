@@ -1,12 +1,12 @@
 - name: Hjem
   link: /eit-satellitt-i-norge/
 - name: Om
-  link: /eit-satellitt-i-norge/about
+  link: /eit-satellitt-i-norge/about/
 - name: Innkjøpsliste
-  link: /eit-satellitt-i-norge/purchase
+  link: /eit-satellitt-i-norge/purchase/
 - name: Teori og forklaringer
-  link: /eit-satellitt-i-norge/theory
+  link: /eit-satellitt-i-norge/theory/
 - name: Guide
-  link: /eit-satellitt-i-norge/guide
+  link: /eit-satellitt-i-norge/guide/
 - name: Satellitter
-  link: /eit-satellitt-i-norge/satellites
+  link: /eit-satellitt-i-norge/satellites/

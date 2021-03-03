@@ -1,11 +1,16 @@
 <nav class="nav-bar">
-  {% for item in site.data.navigation %}
-  <a href="{{ item.link }}">
-    <div class="nav-item">
-      <p>
-        {{ item.name }}
-      </p>
-    </div>
+  <a href="/eit-satellitt-i-norge/">
+    <img src="/eit-satellitt-i-norge/assets/images/satellite.svg" height="30">
   </a>
-  {% endfor %}
+  <div class="nav-links">
+    {% for item in site.data.navigation %}
+    <a href="{{ item.link }}">
+      <div class="nav-item">
+        <p>
+          {{ item.name }}
+        </p>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
 </nav>

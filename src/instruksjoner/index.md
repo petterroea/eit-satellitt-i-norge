@@ -3,7 +3,7 @@ title: Forside
 layout: guide
 ---
 
-# Guide
+# Instruksjoner
 
 Hei på deg, her er litt informasjon
 

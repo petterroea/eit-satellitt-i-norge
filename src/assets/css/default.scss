@@ -14,7 +14,9 @@ body {
 .nav-bar {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
   background-color: white;
   position: fixed;
   z-index: 2;
@@ -23,6 +25,12 @@ body {
   right: 0;
   height: 50px;
   box-shadow: grey 0 0 5px;
+}
+
+.nav-links {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
 }
 
 .nav-bar a {

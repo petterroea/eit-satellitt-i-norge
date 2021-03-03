@@ -8,12 +8,6 @@ body { color: black; }
 
 .sidebar-item:hover { background-color: #eee; }
 
-.page-wrapper { position: absolute; top: 50px; left: 250px; right: 0; padding: 0; }
-
-.guide-body { background-color: #fafafa; }
-
-.content-wrapper { max-width: 900px; padding: 0; box-shadow: none; }
-
-.page { border: 1px solid #555; border-radius: 5px; padding: 0 20px; background-color: white; }
+.page-wrapper { left: 250px; }
 
 /*# sourceMappingURL=guide.css.map */

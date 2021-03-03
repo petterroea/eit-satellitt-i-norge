@@ -3,20 +3,6 @@
 
 body {
   color: white;
-  background-color: #fadeba;
-}
-
-.header {
-  height: 80%;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-self: center;
-
-  h1 {
-    text-align: center;
-  }
 }
 
 .content-wrap {
@@ -28,7 +14,6 @@ body {
 }
 
 .introduction {
-  background-color: #2a3373;
   min-height: 20em;
   display: flex;
   flex-direction: row;
@@ -38,4 +23,8 @@ body {
 .nav-bar {
   position: inherit;
   box-shadow: none;
+}
+
+.full-page-wrapper {
+  height: 100vh;
 }

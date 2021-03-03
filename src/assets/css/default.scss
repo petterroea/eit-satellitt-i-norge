@@ -9,6 +9,10 @@ body {
   color: black;
 }
 
+table {
+  width: 100%;
+}
+
 .nav-bar {
   display: flex;
   flex-direction: row;
@@ -58,7 +62,7 @@ body {
 }
 
 .content-wrapper {
-  padding: 10px 20px;
+  padding: 10px 20px 20px 20px;
   min-height: calc(100vh - 360px);
   max-width: 960px;
   margin: 20px auto;

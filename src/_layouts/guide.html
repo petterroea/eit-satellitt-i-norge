@@ -12,19 +12,18 @@
     <link rel="stylesheet" href="/eit-satellitt-i-norge/assets/css/guide.css" />
 </head>
 
+{% assign url = page.url | prepend: "/eit-satellitt-i-norge" %}
+
 <body class="guide-body">
-    <header class="tempheader">
-        {% include navigation.html %}
-    </header>
+    {% include navigation.html %}
     <nav class="sidebar">
         {% for item in site.data.guides %}
-        <a class="sidebar-item" href="{{ item.link }}" {% if page.title==item.name %} style="font-weight: bold;" {%
-            endif %}>
+        <a class="sidebar-item" href="{{ item.link }}" {% if url==item.link %} style="font-weight: bold;" {% endif %}>
             {{ item.name }}
         </a>
         {% for subitem in item.subpages %}
-        <a class="sidebar-item sub" href="{{ subitem.link }}" {% if page.title==subitem.name %}
-            style="font-weight: bold;" {% endif %}>
+        <a class="sidebar-item sub" href="{{ subitem.link }}" {% if url==subitem.link %} style="font-weight: bold;" {%
+            endif %}>
             {{ subitem.name }}
         </a>
         {% endfor %}

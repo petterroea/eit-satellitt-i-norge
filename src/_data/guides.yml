@@ -3,9 +3,9 @@
 - name: Innkjøpsliste
   link: /eit-satellitt-i-norge/guide/innkjopsliste/
 - name: Montering
-  link: /eit-satellitt-i-norge/guide/montering
+  link: /eit-satellitt-i-norge/guide/montering/
   subpages:
     - name: 1. Spis grandiosaen
-      link: /eit-satellitt-i-norge/guide/montering/steg1
+      link: /eit-satellitt-i-norge/guide/montering/steg1/
     - name: 2. Legg boksen på taket
-      link: /eit-satellitt-i-norge/guide/montering/steg2
+      link: /eit-satellitt-i-norge/guide/montering/steg2/

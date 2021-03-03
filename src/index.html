@@ -2,25 +2,17 @@
 title: Hjem
 layout: frontpage
 ---
-<div class="header">
-	<h1>Nedlasting av data fra en ekte satellitt</h1>
-	<div class="frontpage-nav">
-		<nav>
-		  {% for item in site.data.navigation %}
-		    <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
-				<div class="nav-item">
-					{{ item.name }}
-				</div>
-		    </a>
-		  {% endfor %}
-		</nav>
-	</div>
-</div>
+{% include navigation.html %}
+<h1>Nedlasting av data fra en ekte satellitt</h1>
 <div class="introduction">
 	<div class="content-wrap">
 		<h1>Har du ønsket å motta satellittdata i norge?</h1>
-		<p>Det finnes mange satellitter som sirkulerer rundt jorda, og av disse er det flere som sender kontinuerlig informasjon som alle kan motta. Av disse, er de fleste værsatellitter, men det finnes også satellitter som NORSat.</p>
-		<p>Selv om det er relativt lett å få tak i mye av denne dataen fra nettsidene til eierne, er å motta data fra en ekte satellitt som flyr over hodet ditt et kult hobbyprosjekt. Denne nettsiden er laget for å samle informasjon om mottak fra satellitter i Norge, slik at det er lettere å få dette til.</p>
+		<p>Det finnes mange satellitter som sirkulerer rundt jorda, og av disse er det flere som sender kontinuerlig
+			informasjon som alle kan motta. Av disse, er de fleste værsatellitter, men det finnes også satellitter som
+			NORSat.</p>
+		<p>Selv om det er relativt lett å få tak i mye av denne dataen fra nettsidene til eierne, er å motta data fra en
+			ekte satellitt som flyr over hodet ditt et kult hobbyprosjekt. Denne nettsiden er laget for å samle
+			informasjon om mottak fra satellitter i Norge, slik at det er lettere å få dette til.</p>
 		<p>Denne nettsiden skal hjelpe deg igang med å laste ned data fra ekte satelitter i Norge. Velkommen!</p>
 	</div>
 </div>

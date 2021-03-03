@@ -1,6 +1,6 @@
 body { margin: 0; padding: 0; font-family: "Noto Sans", sans-serif; background-color: lightgray; color: black; }
 
-table { width: 100%; }
+table { width: 100%; background-color: whitesmoke; }
 
 .nav-bar { display: flex; flex-direction: row; justify-content: space-between; align-items: center; padding: 0 20px; background-color: #1a2738; position: fixed; z-index: 2; top: 0; left: 0; right: 0; height: 50px; box-shadow: grey 0 0 5px; }
 
@@ -14,7 +14,7 @@ table { width: 100%; }
 
 .page-wrapper { position: absolute; top: 50px; left: 0; right: 0; }
 
-.content-wrapper { padding: 10px 20px 20px 20px; min-height: calc(100vh - 360px); max-width: 960px; margin: 20px auto; background-color: white; box-shadow: grey 0 0 5px; }
+.content-wrapper { padding: 10px 20px 20px 20px; min-height: calc(100vh - 370px); max-width: 960px; margin: 20px auto; background-color: white; box-shadow: grey 0 0 5px; }
 
 .footer { width: 100%; height: 250px; background-color: #1a2738; }
 

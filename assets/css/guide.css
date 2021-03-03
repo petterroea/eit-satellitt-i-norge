@@ -6,10 +6,10 @@
 
 .sidebar-item:hover { background-color: #eee; }
 
-.content-wrapper { position: absolute; top: 50px; left: 250px; right: 0; padding: 20px; }
+.page-wrapper { position: absolute; top: 50px; left: 250px; right: 0; padding: 0; }
 
 .guide-body { background-color: #fafafa; }
 
-.page-wrapper { max-width: 800px; margin: 0 auto; border: 1px solid #555; border-radius: 5px; padding: 0 20px; background-color: white; }
+.content-wrapper { max-width: 900px; margin: 40px auto; border: 1px solid #555; border-radius: 5px; padding: 0 20px; background-color: white; }
 
 /*# sourceMappingURL=guide.css.map */

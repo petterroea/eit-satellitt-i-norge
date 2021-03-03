@@ -12,7 +12,7 @@ body { color: black; }
 
 .guide-body { background-color: #fafafa; }
 
-.content-wrapper { max-width: 900px; margin: 0 auto; }
+.content-wrapper { max-width: 900px; padding: 0; box-shadow: none; }
 
 .page { border: 1px solid #555; border-radius: 5px; padding: 0 20px; background-color: white; }
 

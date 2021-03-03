@@ -1,18 +1,18 @@
-body { margin: 0; padding: 0; font-family: "Noto Sans", sans-serif; background-color: #2a3373; color: white; }
+body { margin: 0; padding: 0; font-family: "Noto Sans", sans-serif; background-color: lightgray; color: black; }
 
-.nav-bar { display: flex; flex-direction: row; justify-content: space-between; align-items: center; padding: 0 20px; background-color: white; position: fixed; z-index: 2; top: 0; left: 0; right: 0; height: 50px; box-shadow: grey 0 0 5px; }
+.nav-bar { display: flex; flex-direction: row; justify-content: space-between; align-items: center; padding: 0 20px; background-color: #1a2738; position: fixed; z-index: 2; top: 0; left: 0; right: 0; height: 50px; box-shadow: grey 0 0 5px; }
 
 .nav-links { height: 100%; display: flex; flex-direction: row; }
 
-.nav-bar a { text-decoration: none; color: black; }
+.nav-bar a { text-decoration: none; color: white; }
 
 .nav-item { height: 100%; display: flex; justify-content: center; padding: 0 2em; overflow: hidden; min-width: max-content; }
 
-.nav-item:hover { background-color: lightgray; }
+.nav-item:hover { background-color: darkgray; }
 
 .page-wrapper { position: absolute; top: 50px; left: 0; right: 0; }
 
-.content-wrapper { padding: 20px; min-height: calc(100vh - 340px); }
+.content-wrapper { padding: 10px 20px; min-height: calc(100vh - 360px); max-width: 960px; margin: 20px auto; background-color: white; box-shadow: grey 0 0 5px; }
 
 .footer { width: 100%; height: 250px; background-color: #1a2738; }
 

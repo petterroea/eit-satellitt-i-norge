@@ -5,8 +5,8 @@
 		"default.scss"
 	],
 	"sourcesContent": [
-		"html {\n\theight: 100%;\n}\nbody {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: 'Noto Sans', sans-serif;\n\theight: 100%;\n}"
+		"html {\n  height: 100%;\n}\nbody {\n  margin: 0;\n  padding: 0;\n  font-family: \"Noto Sans\", sans-serif;\n  height: 100%;\n}\n\n.nav-bar {\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  background-color: white;\n  position: fixed;\n  z-index: 2;\n  top: 0;\n  left: 0;\n  right: 0;\n  height: 50px;\n  box-shadow: grey 0 0 5px;\n}\n\n.nav-bar a {\n  text-decoration: none;\n}\n\n.nav-item {\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  padding: 0 2em;\n  overflow: hidden;\n  min-width: max-content;\n}\n\n.nav-item:hover {\n  background-color: lightgray;\n}\n\n.content-wrapper {\n  position: absolute;\n  top: 50px;\n  left: 0;\n  right: 0;\n  padding: 20px;\n}\n"
 	],
 	"names": [],
-	"mappings": "AAAA,AAAA,IAAI,CAAC,EACJ,MAAM,EAAE,IAAI,GACZ;;AACD,AAAA,IAAI,CAAC,EACJ,MAAM,EAAE,CAAC,EACT,OAAO,EAAE,CAAC,EACV,WAAW,EAAE,uBAAuB,EACpC,MAAM,EAAE,IAAI,GACZ"
+	"mappings": "AAAA,AAAA,IAAI,CAAC,EACH,MAAM,EAAE,IAAI,GACb;;AACD,AAAA,IAAI,CAAC,EACH,MAAM,EAAE,CAAC,EACT,OAAO,EAAE,CAAC,EACV,WAAW,EAAE,uBAAuB,EACpC,MAAM,EAAE,IAAI,GACb;;AAED,AAAA,QAAQ,CAAC,EACP,OAAO,EAAE,IAAI,EACb,cAAc,EAAE,GAAG,EACnB,eAAe,EAAE,MAAM,EACvB,gBAAgB,EAAE,KAAK,EACvB,QAAQ,EAAE,KAAK,EACf,OAAO,EAAE,CAAC,EACV,GAAG,EAAE,CAAC,EACN,IAAI,EAAE,CAAC,EACP,KAAK,EAAE,CAAC,EACR,MAAM,EAAE,IAAI,EACZ,UAAU,EAAE,YAAY,GACzB;;AAED,AAAA,QAAQ,CAAC,CAAC,CAAC,EACT,eAAe,EAAE,IAAI,GACtB;;AAED,AAAA,SAAS,CAAC,EACR,MAAM,EAAE,IAAI,EACZ,OAAO,EAAE,IAAI,EACb,eAAe,EAAE,MAAM,EACvB,OAAO,EAAE,KAAK,EACd,QAAQ,EAAE,MAAM,EAChB,SAAS,EAAE,WAAW,GACvB;;AAED,AAAA,SAAS,CAAC,KAAK,CAAC,EACd,gBAAgB,EAAE,SAAS,GAC5B;;AAED,AAAA,gBAAgB,CAAC,EACf,QAAQ,EAAE,QAAQ,EAClB,GAAG,EAAE,IAAI,EACT,IAAI,EAAE,CAAC,EACP,KAAK,EAAE,CAAC,EACR,OAAO,EAAE,IAAI,GACd"
 }

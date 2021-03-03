@@ -10,10 +10,6 @@ body { color: white; background-color: #fadeba; }
 
 .introduction { background-color: #2a3373; min-height: 20em; display: flex; flex-direction: row; justify-content: center; }
 
-nav { display: flex; flex-direction: row; justify-content: center; }
-
-.nav-item { min-width: 5em; padding: 2em; background-color: #babefa; text-align: center; }
-
-.nav-item:hover { background-color: #caceff; }
+.nav-bar { position: inherit; box-shadow: none; }
 
 /*# sourceMappingURL=main.css.map */

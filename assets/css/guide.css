@@ -1,4 +1,4 @@
-.sidebar { display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; width: 200px; position: fixed; z-index: 1; top: 50px; left: 0; bottom: 0; padding-top: 20px; background-color: white; box-shadow: grey 0 5px 5px; }
+.sidebar { display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; width: 250px; position: fixed; z-index: 1; top: 50px; left: 0; bottom: 0; padding-top: 20px; background-color: white; box-shadow: grey 0 0 5px; }
 
 .sidebar-item { padding: 0.5em 1em; width: calc(100% - 2em); text-decoration: none; color: black; }
 
@@ -6,12 +6,10 @@
 
 .sidebar-item:hover { background-color: #eee; }
 
-.content-wrapper { position: absolute; top: 50px; left: 200px; right: 0; padding: 20px; }
+.content-wrapper { position: absolute; top: 50px; left: 250px; right: 0; padding: 20px; }
 
 .guide-body { background-color: #fafafa; }
 
 .page-wrapper { max-width: 800px; margin: 0 auto; border: 1px solid #555; border-radius: 5px; padding: 0 20px; background-color: white; }
-
-.tempheader { position: fixed; z-index: 2; top: 0; left: 0; right: 0; height: 50px; background-color: white; box-shadow: grey 5px 0 5px; }
 
 /*# sourceMappingURL=guide.css.map */

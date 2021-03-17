@@ -1,4 +1,4 @@
-body { background-color: black; color: white; }
+body { background: none; background-color: black; color: white; }
 
 .content-wrap { display: flex; flex: 1; flex-direction: column; text-align: center; padding-top: 70px; max-width: 960px; }
 

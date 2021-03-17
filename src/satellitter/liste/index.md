@@ -3,14 +3,9 @@ title: Satellitter
 layout: default
 ---
 
-# Satellitter
+# Tilgjengelige satellitter
 
-## Sporing
-
-På denne nettsiden kan du spore satellitter:
-[https://www.n2yo.com/](https://www.n2yo.com/)
-
-## Tilgjengelige satellitter
+Under kan du se en oversikt over satellitter som du kan motta data fra.
 
 |  Navn   |     Type     | Frekvens |
 | :-----: | :----------: | :------: |

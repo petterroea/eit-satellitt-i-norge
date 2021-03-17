@@ -1,8 +1,8 @@
 body { background-color: black; color: white; }
 
-.content-wrap { display: flex; flex-direction: column; text-align: center; padding-top: 50px; max-width: 960px; }
+.content-wrap { display: flex; flex: 1; flex-direction: column; text-align: center; padding-top: 70px; max-width: 960px; }
 
-.content-wrap h1 { text-transform: uppercase; }
+.content-wrap h1 { text-transform: uppercase; font-size: 40px; margin: 40px 0; }
 
 .nav-bar { position: inherit; box-shadow: none; width: calc(100% - 40px); }
 
@@ -12,6 +12,12 @@ body { background-color: black; color: white; }
 
 .front-2 { background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/eit-satellitt-i-norge/assets/images/spacex-VBNb52J8Trk-unsplash.jpg); background-position: center; }
 
-.blue-button { background-color: #42a9ca; padding: 14px; margin: 20px; width: 100%; border-radius: 25px; color: white; text-transform: uppercase; text-decoration: none; }
+.front-3 { background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/eit-satellitt-i-norge/assets/images/nasa-Q1p7bh3SHj8-unsplash.jpg); background-position: center; }
+
+.blue-button { background-color: #42a9ca; padding: 14px; margin: 20px; width: calc(100% - 68px); border-radius: 25px; color: white; text-transform: uppercase; text-decoration: none; }
+
+.blue-button:hover { background-color: #48b8dd; }
+
+.blue-button:active { background-color: #41a4c5; }
 
 /*# sourceMappingURL=main.css.map */

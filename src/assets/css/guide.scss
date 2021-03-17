@@ -15,7 +15,6 @@ body {
   z-index: 1;
   top: 50px;
   left: 0;
-  bottom: 0;
   padding-top: 20px;
   background-color: white;
   box-shadow: grey 0 0 5px;
@@ -35,8 +34,4 @@ body {
 
 .sidebar-item:hover {
   background-color: #eee;
-}
-
-.page-wrapper {
-  left: 250px;
 }

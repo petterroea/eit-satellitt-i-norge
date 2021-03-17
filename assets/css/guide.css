@@ -1,13 +1,11 @@
 body { color: black; }
 
-.sidebar { display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; width: 250px; position: fixed; z-index: 1; top: 50px; left: 0; bottom: 0; padding-top: 20px; background-color: white; box-shadow: grey 0 0 5px; }
+.sidebar { display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; width: 250px; position: fixed; z-index: 1; top: 50px; left: 0; padding-top: 20px; background-color: white; box-shadow: grey 0 0 5px; }
 
 .sidebar-item { padding: 0.5em 1em; width: calc(100% - 2em); text-decoration: none; color: black; }
 
 .sidebar-item.sub { padding: 0.5em 1em 0.5em 2em; width: calc(100% - 3em); }
 
 .sidebar-item:hover { background-color: #eee; }
-
-.page-wrapper { left: 250px; }
 
 /*# sourceMappingURL=guide.css.map */

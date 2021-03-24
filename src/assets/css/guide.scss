@@ -5,6 +5,31 @@ body {
   color: black;
 }
 
+.help {
+  position: absolute;
+  right: 0;
+  top: 33%;
+  background-color: #42A9CA;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px;
+  height: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  width: 250px;
+  filter: drop-shadow(0 0 3px gray);
+}
+
+.help a {
+  color: white;
+}
+
+.help img {
+  height: 100%;
+}
+
 .sidebar {
   min-width: 250px;
   grid-area: sidebar;

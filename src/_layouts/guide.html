@@ -14,11 +14,17 @@
 
 {% assign url = page.url | prepend: "/eit-satellitt-i-norge" %}
 
+{% if page.collection == "guide" %}
+{% assign list = site.data.guides %}
+{% else %}
+{% assign list = site.data.theory %}
+{% endif %}
+
 <body>
     {% include navigation.html %}
     <div class="guide-body">
         <nav class="sidebar">
-            {% for item in site.data.guides %}
+            {% for item in list %}
             <a class="sidebar-item {% if url==item.link %}selected{% endif%}" href="{{ item.link }}">
                 {{ item.name }}
             </a>

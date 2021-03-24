@@ -1,6 +1,7 @@
 ---
 title: Innkjøpsliste
 layout: guide
+collection: guide
 ---
 
 # Innkjøpsliste

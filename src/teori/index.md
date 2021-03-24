@@ -1,10 +1,10 @@
 ---
 title: Forside
 layout: guide
-collection: guide
+collection: theory
 ---
 
-# Instruksjoner
+# Teori
 
 Hei på deg, her er litt informasjon
 

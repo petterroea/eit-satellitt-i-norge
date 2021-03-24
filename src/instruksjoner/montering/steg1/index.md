@@ -1,6 +1,7 @@
 ---
 title: 1. Spis grandiosaen
 layout: guide
+collection: guide
 ---
 
 # 1. Spis grandiosaen

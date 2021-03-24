@@ -1,6 +1,7 @@
 ---
 title: 2. Legg boksen på taket
 layout: guide
+collection: guide
 ---
 
 # 2. Legg boksen på taket

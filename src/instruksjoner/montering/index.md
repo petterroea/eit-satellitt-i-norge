@@ -1,6 +1,7 @@
 ---
 title: Montering
 layout: guide
+collection: guide
 ---
 
 # Montering

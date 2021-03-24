@@ -1,6 +1,10 @@
 --- 
 ---
 
+h1 {
+	text-transform: uppercase;
+}
+
 .faq-front-wrapper {
 	display: flex;
 	flex-direction: column;
@@ -72,6 +76,11 @@
 	background-color: #42a9ca;
 
 	cursor: pointer;
+
+	a {
+		text-decoration: none;
+		color: white;
+	}
 
 	&:hover {
 		background-color: #12799a;

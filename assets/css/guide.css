@@ -1,6 +1,6 @@
 body { color: black; }
 
-.sidebar { min-width: 250px; grid-area: sidebar; justify-self: stretch; align-self: flex-start; display: flex; flex-direction: column; z-index: 1; background-color: #B6CADA; box-shadow: grey 0 0 5px; }
+.sidebar { min-width: 250px; grid-area: sidebar; justify-self: stretch; align-self: flex-start; display: flex; flex-direction: column; z-index: 1; background-color: #B6CADA; filter: drop-shadow(0 0 3px gray); }
 
 .sidebar-item { padding: 1em 1em; text-decoration: none; color: black; display: flex; flex-direction: row; align-items: center; justify-content: space-between; }
 

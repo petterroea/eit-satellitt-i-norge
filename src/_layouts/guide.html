@@ -14,23 +14,24 @@
 
 {% assign url = page.url | prepend: "/eit-satellitt-i-norge" %}
 
-<body class="guide-body">
+<body>
     {% include navigation.html %}
-    <nav class="sidebar">
-        {% for item in site.data.guides %}
-        <a class="sidebar-item" href="{{ item.link }}" {% if url==item.link %} style="font-weight: bold;" {% endif %}>
-            {{ item.name }}
-        </a>
-        {% for subitem in item.subpages %}
-        <a class="sidebar-item sub" href="{{ subitem.link }}" {% if url==subitem.link %} style="font-weight: bold;" {%
-            endif %}>
-            {{ subitem.name }}
-        </a>
-        {% endfor %}
-        {% endfor %}
-    </nav>
-    <div class="content-wrapper">
-        {{ content }}
+    <div class="guide-body">
+        <nav class="sidebar">
+            {% for item in site.data.guides %}
+            <a class="sidebar-item {% if url==item.link %}selected{% endif%}" href="{{ item.link }}">
+                {{ item.name }}
+            </a>
+            {% for subitem in item.subpages %}
+            <a class="sidebar-item sub {% if url==subitem.link %}selected{% endif%}" href="{{ subitem.link }}">
+                {{ subitem.name }}
+            </a>
+            {% endfor %}
+            {% endfor %}
+        </nav>
+        <div class="content-wrapper">
+            {{ content }}
+        </div>
     </div>
     {% include footer.html %}
 </body>

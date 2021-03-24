@@ -1,6 +1,6 @@
 body { color: black; }
 
-.sidebar { grid-area: sidebar; justify-self: stretch; align-self: flex-start; display: flex; flex-direction: column; z-index: 1; background-color: #B6CADA; box-shadow: grey 0 0 5px; }
+.sidebar { min-width: 250px; grid-area: sidebar; justify-self: stretch; align-self: flex-start; display: flex; flex-direction: column; z-index: 1; background-color: #B6CADA; box-shadow: grey 0 0 5px; }
 
 .sidebar-item { padding: 1em 1em; text-decoration: none; color: black; display: flex; flex-direction: row; align-items: center; justify-content: space-between; }
 
@@ -16,6 +16,6 @@ body { color: black; }
 
 .content-wrapper { grid-area: center; justify-self: center; width: calc(100% - 40px); min-height: calc(100vh - 236px); margin: 0; }
 
-.guide-body { display: grid; grid-template-columns: 250px auto 250px; grid-template-rows: auto; grid-template-areas: "sidebar center empty"; }
+.guide-body { display: grid; grid-template-columns: auto minmax(0px, 960px) auto; grid-template-rows: auto; grid-template-areas: "sidebar center empty"; }
 
 /*# sourceMappingURL=guide.css.map */

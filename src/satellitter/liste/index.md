@@ -3,7 +3,7 @@ title: Satellitter
 layout: default
 ---
 
-# Tilgjengelige satellitter
+# 📡 Tilgjengelige satellitter
 
 Under kan du se en oversikt over satellitter som du kan motta data fra.
 

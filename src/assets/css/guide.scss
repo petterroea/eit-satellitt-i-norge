@@ -56,6 +56,7 @@ body {
   grid-area: center;
   justify-self: center;
   width: calc(100% - 40px);
+  min-height: calc(100vh - 236px);
   margin: 0;
 }
 

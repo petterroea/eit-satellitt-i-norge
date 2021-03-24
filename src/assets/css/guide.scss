@@ -14,7 +14,7 @@ body {
   flex-direction: column;
   z-index: 1;
   background-color: #B6CADA;
-  box-shadow: grey 0 0 5px;
+  filter: drop-shadow(0 0 3px gray);
 }
 
 .sidebar-item {

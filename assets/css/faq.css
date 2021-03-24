@@ -1,0 +1,33 @@
+h1 { text-transform: uppercase; }
+
+.faq-front-wrapper { display: flex; flex-direction: column; align-items: stretch; min-height: calc(100vh - 276px); padding: 20px; max-width: 960px; margin: 20px auto; }
+
+.faq-options { display: flex; flex-direction: column; justify-content: space-between; }
+
+@media (min-width: 960px) { .faq-options { flex-direction: row; } }
+
+.faq-element { background-color: rgba(0, 0, 0, 0.8); color: white; display: flex; flex-direction: column; padding: 1em; margin: 1em; border-radius: 0.3125em; box-shadow: 0.3em 0.3em 0.3em rgba(0, 0, 0, 0.4); text-align: center; }
+
+.faq-element-header { text-align: left !important; display: table; }
+
+.faq-element-header h1 { display: flex; align-items: center; text-align: center; }
+
+.faq-element-header h1 img { width: 1.5em; margin-right: 0.3em; }
+
+.faq-link-button { display: flex; justify-content: center; min-height: 3em; border-radius: 2em; background-color: #42a9ca; cursor: pointer; }
+
+.faq-link-button a { text-decoration: none; color: white; }
+
+.faq-link-button:hover { background-color: #12799a; }
+
+.faq-link-button > h3 { text-transform: uppercase; }
+
+.img-container { display: flex; flex-direction: row; justify-content: center; flex-grow: 1; flex-shrink: 0; }
+
+@media (min-width: 960px) { .img-container { flex-direction: column; } }
+
+.img-container img { width: 100%; margin: 2em 0 2em 0; }
+
+@media (max-width: 960px) { .img-container img { width: 50%; } }
+
+/*# sourceMappingURL=faq.css.map */

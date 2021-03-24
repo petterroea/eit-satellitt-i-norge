@@ -1,5 +1,11 @@
 body { color: black; }
 
+.help { position: absolute; right: 0; top: 33%; background-color: #42A9CA; color: white; display: flex; flex-direction: row; align-items: center; padding: 15px; height: 50px; border-top-left-radius: 50px; border-bottom-left-radius: 50px; width: 250px; filter: drop-shadow(0 0 3px gray); }
+
+.help a { color: white; }
+
+.help img { height: 100%; }
+
 .sidebar { min-width: 250px; grid-area: sidebar; justify-self: stretch; align-self: flex-start; display: flex; flex-direction: column; z-index: 1; background-color: #B6CADA; filter: drop-shadow(0 0 3px gray); }
 
 .sidebar-item { padding: 1em 1em; text-decoration: none; color: black; display: flex; flex-direction: row; align-items: center; justify-content: space-between; }

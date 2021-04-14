@@ -19,4 +19,5 @@ Et slikt filter fungerer ved å filtrere bort uønskede frekvenser, ved å dempe
 
 ### Referanser
 
+- Orbital research (u.å.) Low Noise Amplifiers (LNAs). Hentet fra <https://orbitalresearch.net/products/lna/>
 - ElectronicsTutorials (u.å.) Passive Band Pass Filter. Hentet fra <https://www.electronics-tutorials.ws/filter/filter_4.html>

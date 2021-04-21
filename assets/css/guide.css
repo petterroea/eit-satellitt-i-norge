@@ -2,6 +2,8 @@ body { color: black; }
 
 .guide-body img { max-width: 500px; max-height: 300px; }
 
+.guide-body li { margin-bottom: 1em; }
+
 .help { position: absolute; right: 0; top: 33%; background-color: #42a9ca; color: white; display: flex; flex-direction: row; align-items: center; padding: 15px; height: 50px; border-top-left-radius: 50px; border-bottom-left-radius: 50px; width: 250px; filter: drop-shadow(0 0 3px gray); }
 
 .help a { color: white; }

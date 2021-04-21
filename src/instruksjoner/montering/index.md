@@ -33,3 +33,7 @@ Filene er gitt i STL-format, og du trenger selv å bruke programvaren som følge
 ![Stang](/eit-satellitt-i-norge/assets/images/stang.png)
 
 [**Last ned**](https://github.com/petterroea/eit-satellitt-i-norge/raw/main/models/Stang.STL)
+
+## Sett sammen mottakeren
+
+Du skal printe ut parabol-delen 8 ganger. Etter dette, skal du printe ut de resterende 3 delene. Etter at dette er gjort, kan du starte å sette sammen parabolen. Fest sammen de 8 parabol-delene til en stor parabol. Dekk forsiden med aluminium. Fest på håndtaket og den lange stangen jeg ikke kan navnet på.

@@ -45,18 +45,6 @@ Disse punktene markerer områder der gravitasjonskreftene fra Sola og Jordkloden
 
 ![Baner](/eit-satellitt-i-norge/assets/images/orbit.png)
 
-## HRPT
-
-HRPT står for “High Resolution Picture Transmission”. Hvis en satellitt har oppgitt en frekvens for dette, betyr det altså at man kan hente ned bilder i god oppløsning herfra.
-MPT står for “Mission Picture Transmission”.
-DPT står for “Delayed Picture Transmission”
-APT står for “Automatic Picture Transmission” Det er lettere å hente ned bilder via denne kontra HRPT på grunn av mange ulike faktorer.
-(Mdkenny, 2017)
-
-## EIRP
-
-EIRP står for “Effective Isotropically Radiated Power”. Dette måles i desibel (dB). EIRP verdien forteller oss hva signalstyrken ville vært hvis antennen hadde utstrålt likt i alle retninger. Hvis EIRP ligger på 40dB så betyr det at det tilsvarer en uniform antenne som utstråler 40dB i alle retninger. (Sutron, u.å.)
-
 ## Satellitter å fokusere på
 
 Det er flere satellitter man kan hente ned data fra. Felles for disse er at man kan hente ned data via APT og HRPT.
@@ -71,7 +59,3 @@ Man har NOAA 18 og 19, som man kan hente ned bilder via både APT og HRPT. APT h
   <https://www.esa.int/Enabling_Support/Space_Transportation/Types_of_orbits>
 
 - ESOA (u.å.) Satellite orbits. Hentet fra <https://www.esoa.net/technology/satellite-orbits.asp>
-
-- Mdkenny (18.nov 2018) Meteorological satellite frequencies. Hentet fra <http://mdkenny.customer.netspace.net.au/metsat_frequencies.html#FY-3>
-
-- Sutron (u.å.) Uplink EIRP. Hentet fra <https://www.sutron.com/wp-content/uploads/2013/12/UPLINK_EIRP_Decibel.pdf>

@@ -1,8 +1,10 @@
-- name: Forside
+- name: Introduksjon
   link: /eit-satellitt-i-norge/teori/
-- name: Satellitter
-  link: /eit-satellitt-i-norge/teori/satellitter/
 - name: Begrepsforklaring
   link: /eit-satellitt-i-norge/teori/begrepsforklaring/
+- name: Satellitter
+  link: /eit-satellitt-i-norge/teori/satellitter/
+- name: Antenne
+  link: /eit-satellitt-i-norge/teori/antenne/
 - name: Elektronikk
   link: /eit-satellitt-i-norge/teori/elektronikk/

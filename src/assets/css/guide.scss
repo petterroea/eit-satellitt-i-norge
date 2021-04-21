@@ -5,11 +5,16 @@ body {
   color: black;
 }
 
+.guide-body img {
+  max-width: 500px;
+  max-height: 300px;
+}
+
 .help {
   position: absolute;
   right: 0;
   top: 33%;
-  background-color: #42A9CA;
+  background-color: #42a9ca;
   color: white;
   display: flex;
   flex-direction: row;
@@ -38,7 +43,7 @@ body {
   display: flex;
   flex-direction: column;
   z-index: 1;
-  background-color: #B6CADA;
+  background-color: #b6cada;
   filter: drop-shadow(0 0 3px gray);
 }
 
@@ -53,13 +58,13 @@ body {
 }
 
 .sidebar-item.selected {
-    background-color: #42A9CA;
-    color: white;
+  background-color: #42a9ca;
+  color: white;
 }
 
 .sidebar-item.selected::after {
   content: "";
-  border-left: 1em solid #42A9CA;
+  border-left: 1em solid #42a9ca;
   border-top: 27px solid transparent;
   border-bottom: 27px solid transparent;
   margin: -2em;

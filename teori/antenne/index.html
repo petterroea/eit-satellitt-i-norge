@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Guide - Antenne</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/eit-satellitt-i-norge/assets/css/default.css" />
+    <link rel="stylesheet" href="/eit-satellitt-i-norge/assets/css/guide.css" />
+</head>
+
+
+
+
+
+<body>
+    <div class="help">
+        <img src="/eit-satellitt-i-norge/assets/images/question.svg">
+        <div style="padding: 15px">
+            <span>Lurer du på noe?</span>
+            <br>
+            <span>Trykk <a href="/eit-satellitt-i-norge/faq/">her</a>.</span>
+        </div>
+    </div>
+    <nav class="nav-bar">
+  <a href="/eit-satellitt-i-norge/">
+    <div style="display: flex; flex-direction: row; align-items: center;">
+    <img src="/eit-satellitt-i-norge/assets/images/satellite.svg" height="30" style="margin-right: 10px">
+    MySat
+  </div>
+  </a>
+  <div class="nav-links">
+    
+    <a href="/eit-satellitt-i-norge/satellitter/">
+      <div class="nav-item">
+        <p>
+          Satellitter
+        </p>
+      </div>
+    </a>
+    
+    <a href="/eit-satellitt-i-norge/instruksjoner/">
+      <div class="nav-item">
+        <p>
+          Instruksjoner
+        </p>
+      </div>
+    </a>
+    
+    <a href="/eit-satellitt-i-norge/teori/">
+      <div class="nav-item">
+        <p>
+          Teori
+        </p>
+      </div>
+    </a>
+    
+    <a href="/eit-satellitt-i-norge/faq/">
+      <div class="nav-item">
+        <p>
+          FAQ
+        </p>
+      </div>
+    </a>
+    
+  </div>
+</nav>
+<div class="nav-space"></div>
+    <div class="guide-body">
+        <nav class="sidebar">
+            
+            <a class="sidebar-item " href="/eit-satellitt-i-norge/teori/">
+                Introduksjon
+            </a>
+            
+            
+            <a class="sidebar-item " href="/eit-satellitt-i-norge/teori/begrepsforklaring/">
+                Begrepsforklaring
+            </a>
+            
+            
+            <a class="sidebar-item " href="/eit-satellitt-i-norge/teori/satellitter/">
+                Satellitter
+            </a>
+            
+            
+            <a class="sidebar-item selected" href="/eit-satellitt-i-norge/teori/antenne/">
+                Antenne
+            </a>
+            
+            
+            <a class="sidebar-item " href="/eit-satellitt-i-norge/teori/elektronikk/">
+                Elektronikk
+            </a>
+            
+            
+        </nav>
+        <div class="content-wrapper">
+            <h1 id="antenne">Antenne</h1>
+
+<h2 id="typer-antenner">Typer antenner</h2>
+
+<p>Man har mange ulike typer antenner, men det er heliske antenner som er mest relevante for dette prosjektet. Slike antenner er laget av vaiere som er surret rundt et objekt slik at de får en heliksform. Denne typen antenner har ofte et frekvensspekter på mellom 30MHz og 3GHz, og kan ta imot signaler fra mange retninger. (Tutorialspoint, u.å.)</p>
+
+<h2 id="antenne-gain">Antenne gain</h2>
+
+<p>Antenne gain er et tall som forteller deg hvor flink antennen er til å gjøre radiosignaler om til elektriske signaler, og i hvilker retninger antenne gjør dette best. Som sagt så gjør dette antenne da retningsavhengig, så retning, orientering vinkler er kjempeviktige når en skal ta imot signaler fra et objekt som er en spesifikk retning.</p>
+
+<p>Når en da skal motta svake signaler fra en satellitt langt unna, er det viktig at antenne gain er så høy som mulig. det finnes flere typer antenner, og noen er bedre enn andre på enkelt områder.</p>
+
+<p>Direksjonell antenne : Dette er antenner som har stor gain i en retning, og fungerer godt til mottak av signaler fra satellitter. men pass på at antennen kan motta sirkulært polariserte bølger, ettersom mange satelitter polariserer radiobølgene de sender på denne måten.</p>
+
+<p>(Shure UK, 2016) Dersom antennas gain er på 3 dB så innebærer det at signalene som innhentes langt fra antenna vil være 3 dB høyere enn det man kunne fått fra en antenne uten tap. (Antenna theory, u.å.)</p>
+
+<h2 id="paraboltallerken">Paraboltallerken</h2>
+
+<p>Størrelsen på parabolen påvirker hvor sterkt signal du ender opp med. Den er med på å “samle” signalet og rette det mot mottakeren. Derfor vil en større parabol gi et bedre signal enn en liten, fordi den kan samle opp flere signaler. (Astra 2, u.å.)</p>
+
+<h2 id="lnb">LNB</h2>
+
+<p>LNB står for “Low noise block converter”. Det er en komponent som ofte sitter på metallarmen til parabolen. Funksjonen til LNBen er å forsterke de forsterker svake signaler, i tillegg til at den gjør om høyfrekvente signaler om til signaler med en lavere frekvens.
+LNB gain forteller oss hvor mye signalet forsterkes. Det måles i desibel (dB) og er ofte på en verdi mellom 40 og 70dB. (Multicom, u.å.)</p>
+
+<h2 id="tap-av-signaler">Tap av signaler</h2>
+
+<p>Signalene kan påvirkes av atmosfæriske forhold. I tillegg må man ta hensyn til gain fra transmittere og antenner. (Everything RF, u.å.)</p>
+
+<p><br /></p>
+
+<h3 id="referanser">Referanser</h3>
+
+<ul>
+  <li>
+    <p>Tutorialspoint (u.å.) Antenna theory - helical. Hentet fra <a href="https://www.tutorialspoint.com/antenna_theory/antenna_theory_helical.htm">https://www.tutorialspoint.com/antenna_theory/antenna_theory_helical.htm</a></p>
+  </li>
+  <li>
+    <p>Shure UK (3.mars 2016) How External Antennas Improve Signal-to-Noise Ratio. Hentet fra <a href="https://www.shure.com/en-US/performance-production/louder/external-antennas-improve-signal-noise-ratio">https://www.shure.com/en-US/performance-production/louder/external-antennas-improve-signal-noise-ratio</a></p>
+  </li>
+  <li>
+    <p>Antenna theory (u.å.) Antenna Gain. Hentet fra <a href="https://www.antenna-theory.com/basics/gain.php">https://www.antenna-theory.com/basics/gain.php</a></p>
+  </li>
+  <li>
+    <p>Astra 2 (u.å.) Dish size. Hentet fra <a href="http://www.astra2sat.com/technical/understanding-signals/">http://www.astra2sat.com/technical/understanding-signals/</a></p>
+  </li>
+  <li>
+    <p>Multicom (u.å.) LNBs: What They Do, and How They Work. Hentet fra <a href="https://www.multicominc.com/lnbs-what-they-do-and-how-they-work/">https://www.multicominc.com/lnbs-what-they-do-and-how-they-work/</a></p>
+  </li>
+  <li>
+    <p>EverythingRF (u.å.) Free Space Path Loss Calculator. Hentet fra <a href="https://www.everythingrf.com/rf-calculators/free-space-path-loss-calculator">https://www.everythingrf.com/rf-calculators/free-space-path-loss-calculator</a></p>
+  </li>
+</ul>
+
+        </div>
+        <div style="grid-area: empty; min-width: 250px;"></div>
+    </div>
+    <footer class="footer">
+    <div>
+        <p>TJENESTER</p>
+    </div>
+    <div>
+        <p><a href="javascript:;">Kontakt</a></p>
+        <p><a href="/eit-satellitt-i-norge/faq/">FAQ</a></p>
+    </div>
+    <div style="width: 100px"></div>
+    <div>
+        <p>INFORMASJON</p>
+    </div>
+    <div>
+        <p><a href="javascript:;">Om oss</a></p>
+        <p><a href="javascript:;">Om prosjektet</a></p>
+        <p><a href="javascript:;">Informasjonskapsler</a></p>
+    </div>
+    <div style="width: 100px"></div>
+    <div>
+        <p>ANNET</p>
+    </div>
+    <div>
+        <p><a href="javascript:;">Varsler</a></p>
+    </div>
+</footer>
+
+</body>
+
+</html>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>

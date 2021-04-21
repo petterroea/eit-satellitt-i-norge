@@ -71,7 +71,12 @@
         <nav class="sidebar">
             
             <a class="sidebar-item " href="/eit-satellitt-i-norge/teori/">
-                Forside
+                Introduksjon
+            </a>
+            
+            
+            <a class="sidebar-item selected" href="/eit-satellitt-i-norge/teori/begrepsforklaring/">
+                Begrepsforklaring
             </a>
             
             
@@ -80,8 +85,8 @@
             </a>
             
             
-            <a class="sidebar-item selected" href="/eit-satellitt-i-norge/teori/begrepsforklaring/">
-                Begrepsforklaring
+            <a class="sidebar-item " href="/eit-satellitt-i-norge/teori/antenne/">
+                Antenne
             </a>
             
             
@@ -94,16 +99,54 @@
         <div class="content-wrapper">
             <h1 id="begrepsforklaring">Begrepsforklaring</h1>
 
+<h2 id="signalstyrke">Signalstyrke</h2>
+
+<p>Satellittsignaler måles i dBm. dB står da for “desibel”. Signalet mister mye av styrken sin innen det når mottakeren din, så det er viktig å forsterke det mest mulig. (Solidsignal, u.å.) Man kan regne ut amplituden til signalet ved å se på signalstyrken i dB, eller så kan man søke opp ulike tabeller på nettet. På denne siden kan man finne informasjon om hvordan man regner det ut, samt en tabell i bunnen som viser en rekke desibelverdier med korresponderende amplituder: <a href="https://www.rapidtables.com/electric/decibel.html">https://www.rapidtables.com/electric/decibel.html</a>.</p>
+
+<h2 id="polarisering">Polarisering</h2>
+
+<p>Polariseringen til signalene kan påvirke hvordan de takler atmosfæriske forhold. RHCP-signaler, altså signaler med “Right Hand Circular Polarization” brukes ofte i sammenheng med sending av signaler. En fordel med sirkulær polarisering er at man ikke får signaltap pga ulik polarisering av signalene. I tillegg er det slik at når et RHCP-signal treffer en flate, vil det sendes tilbake som et LHCP (Left Hand Circular Polarization) signal. Fordelen med dette er at RHCP-antenner vil ha mindre interferens av reflekterte bølger, altså LHCP-signaler som blandes inn i RHCP-signalene. (Antenna theory, u.å.)</p>
+
+<h2 id="frekvensområde-og-frekvensvalg">Frekvensområde og frekvensvalg</h2>
+
+<p>Båndbredden til signalet sier noe om frekvensspekteret til signalet. Et signal som sendes mellom 40 og 60 MHz vil da ha en båndbredde på 20MHz. Noen frekvensbånd har større båndbredde enn andre. I dette prosjektet er det mest relevant med frekvensbåndene VHF (Very High Frequency) og UHF (Ultra High Frequency). VHF har da et frekvensspekter på mellom 30 og 300MHz, mens UHF har et frekvensspekter på mellom 300-3000MHz. I dette prosjekter ser man satellittene holder seg på frekvenser rundt 137MHz og 1,7GHz, så det er disse to frekvensbåndene som er mest relevante. (Antenna theory, u.å.)</p>
+
 <h2 id="snr">SNR</h2>
 
 <p>SNR står for “Signal-to-Noise-Ratio” og er et tallet som forteller deg hvor sterkt det ønskede signalet er i forhold til det uønskede støyet er i signalet. Man ønsker helst at SNR-tallet er så høy som mulig. (Shure UK, 2016)</p>
+
+<h2 id="eirp">EIRP</h2>
+
+<p>EIRP står for “Effective Isotropically Radiated Power”. Dette måles i desibel (dB). EIRP verdien forteller oss hva signalstyrken ville vært hvis antennen hadde utstrålt likt i alle retninger. Hvis EIRP ligger på 40dB så betyr det at det tilsvarer en uniform antenne som utstråler 40dB i alle retninger. (Sutron, u.å.)</p>
+
+<h2 id="hrpt">HRPT</h2>
+
+<p>HRPT står for “High Resolution Picture Transmission”. Hvis en satellitt har oppgitt en frekvens for dette, betyr det altså at man kan hente ned bilder i god oppløsning herfra.
+MPT står for “Mission Picture Transmission”.
+DPT står for “Delayed Picture Transmission”
+APT står for “Automatic Picture Transmission” Det er lettere å hente ned bilder via denne kontra HRPT på grunn av mange ulike faktorer.
+(Mdkenny, 2017)</p>
 
 <p><br /></p>
 
 <h3 id="referanser">Referanser</h3>
 
 <ul>
-  <li>Shure UK (3.mars 2016) How External Antennas Improve Signal-to-Noise Ratio. Hentet fra <a href="https://www.shure.com/en-US/performance-production/louder/external-antennas-improve-signal-noise-ratio">https://www.shure.com/en-US/performance-production/louder/external-antennas-improve-signal-noise-ratio</a></li>
+  <li>
+    <p>Antenna theory (u.å.) Polarization - EM Waves and Antennas. Hentet fra <a href="https://www.antenna-theory.com/basics/polarization.php">https://www.antenna-theory.com/basics/polarization.php</a></p>
+  </li>
+  <li>
+    <p>Antenna theory (u.å.) Frequency Bands. Hentet fra <a href="https://www.antenna-theory.com/basics/freqBands.php">https://www.antenna-theory.com/basics/freqBands.php</a></p>
+  </li>
+  <li>
+    <p>Shure UK (3.mars 2016) How External Antennas Improve Signal-to-Noise Ratio. Hentet fra <a href="https://www.shure.com/en-US/performance-production/louder/external-antennas-improve-signal-noise-ratio">https://www.shure.com/en-US/performance-production/louder/external-antennas-improve-signal-noise-ratio</a></p>
+  </li>
+  <li>
+    <p>Sutron (u.å.) Uplink EIRP. Hentet fra <a href="https://www.sutron.com/wp-content/uploads/2013/12/UPLINK_EIRP_Decibel.pdf">https://www.sutron.com/wp-content/uploads/2013/12/UPLINK_EIRP_Decibel.pdf</a></p>
+  </li>
+  <li>
+    <p>Mdkenny (18.nov 2018) Meteorological satellite frequencies. Hentet fra <a href="http://mdkenny.customer.netspace.net.au/metsat_frequencies.html#FY-3">http://mdkenny.customer.netspace.net.au/metsat_frequencies.html#FY-3</a></p>
+  </li>
 </ul>
 
         </div>

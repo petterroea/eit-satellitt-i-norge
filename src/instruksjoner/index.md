@@ -1,5 +1,5 @@
 ---
-title: Forside
+title: Instruksjoner
 layout: guide
 collection: guide
 ---
